@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+}
+
+main {
+  background-color: #F9FAFC;
+  background-image: url( images/pinaples.jpg);
+  background-size: 700px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  padding: 10px;
+}
+
+header {
+  background-color: #1975DE;
+	height: 80px;
+}
+
+.wrapper {
+	width: 100%;
+	margin: auto;
+}
+
+header h1  {
+  float: left;
+  padding-top: 40px;
+  margin: 0 0 0 20px;
+}
+
+nav {
+  font-family: Georgia;
+  float: right;
+  margin: 40px 20px 0 0;
+}
+
+footer {
+  background-color: #1975DE;
+  height: 80px;
+  display: grid;
+}
+
+img {
+  height:400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+/*center all text*/
+p, h1, h2, h3 {
+  text-align: center;
+  font-family: Georgia;
+  font-size: 20px;
+}
+
+ol, ul, li {
+  font-family: Georgia;
+  font-size: 20px;
+}
+
+/*Keep the text in the middle of the page*/
+.middle {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  margin-bottom: 250px;
+}
