@@ -14,6 +14,7 @@ main {
 header {
   background-color: #1975DE;
 	height: 80px;
+  color: white;
 }
 
 .wrapper {
@@ -27,10 +28,21 @@ header h1  {
   margin: 0 0 0 20px;
 }
 
-nav {
+.nav-buttons {
   font-family: Georgia;
   float: right;
   margin: 40px 20px 0 0;
+  text-decoration: none;
+}
+
+.nav-buttons :link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-buttons :hover {
+  color: yellow;
+  text-decoration: underline;
 }
 
 footer {
